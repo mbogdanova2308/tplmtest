@@ -1,0 +1,27 @@
+#header {
+	max-width: 1085px;
+	padding: 41px $size__site-h-padding 47px;
+	margin:0 auto 45px;
+	position: relative;
+
+	&:before{
+		position: absolute;
+		left: $size__site-h-padding;
+		right: $size__site-h-padding;
+		height: 6px;
+		border: solid $color_light_green;
+		border-width: 1px 0;
+		bottom: 0;
+		content: '';
+	}
+
+	.logo{
+		position: absolute;
+		left: $size__site-h-padding;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	@include media('<tablet') {
+        
+    }
+}

@@ -1,0 +1,13 @@
+$size__site-main: 100%;
+$size__site-sidebar: 25%;
+$size__site-h-padding: 25px;
+
+$breakpoints: (
+  'xs-phone': 320px,
+  'phone': 480px,
+  'tablet': 768px,
+  'desktop': 1024px,
+  'widescreen': 1200px,
+  'screen-13': 1281px,
+  'extra-widescreen': 1600px,
+);
