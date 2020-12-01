@@ -308,6 +308,14 @@
 .post-navigation .nav-links{
 	padding:55px 0 48px;
 	position:relative;
+	@include media('<tablet') {
+		display: block;
+		.nav-next{
+			border-top: 1px solid $color_light_green;
+			padding-top: 25px;
+			margin-top: 25px; 
+		}
+	}
 
 	&:before{
 		position: absolute;

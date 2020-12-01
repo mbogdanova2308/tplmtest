@@ -55,6 +55,10 @@
 		margin-right: 25px;
 		border-radius: 50%;
 		overflow: hidden;
+		@include media('<tablet') {
+			max-width: 50px;
+			margin-right: 20px;
+		}
 	}
 
 	.comment-body{
@@ -87,6 +91,9 @@
 	ul{
 		@extend %listreset;
 		padding-left: 55px;
+		@include media('<tablet') {
+			padding-left: 25px;
+		}
 	} 
 }
 
